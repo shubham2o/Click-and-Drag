@@ -6,10 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doubts</title>
-    <link rel="stylsheet" href="Doubts.css">
+    <link rel="stylesheet" href="Doubts.css">
 </head>
 
 <body>
+    <!-- preventDefault() Event Method -->
+    <h1>preventDefault() Event Method</h1>
+    <p>• The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.</p>
+    <p>• For example, this can be useful when:
+        <br> -- Clicking on a "Submit" button, prevent it from submitting a form.
+        <br> -- Clicking on a link, prevent the link from following the URL.
+    </p>
+    <p>• <strong>Note :</strong> Not all events are cancelable. Use the cancelable property to find out if an event is cancelable. </p>
+    <p>• <strong>Note :</strong> The preventDefault() method does not prevent further propagation of an event through the DOM. Use the stopPropagation() method to handle this.</p>
+    <br>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong> Prevent a link from opening the URL:</p>
+    <a id="myAnchor" href="https://w3schools.com/">Go to W3schools.com</a>
+    <p>The preventDefault() method will prevent the link above from following the URL.</p>
+    <hr>
+
     <script src="Doubts.js"></script>
 </body>
 
